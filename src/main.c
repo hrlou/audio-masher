@@ -41,7 +41,7 @@ int travel(const char* dir) {
 }
 
 int main(int argc, char** argv) {
-	char *locale;
+	char* locale;
 	locale = setlocale(LC_ALL, "");
 	if (argc <= 1) {
 		fprintf(stderr, "Usage: %s <dirname>", argv[0]);
